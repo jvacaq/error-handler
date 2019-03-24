@@ -13,7 +13,7 @@ public class Retriever {
         html.append("<html><ol>")
                 .append("<li>").append(model.getDescription()).append("</li>")
                 .append("<li>").append(model.getUrl()).append("</li>")
-                .append("</o/></html>");
+                .append("</ol></html>");
         return html.toString();
     }
 }
